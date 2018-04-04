@@ -1,7 +1,19 @@
 .logo {
-	text-align: center;
+	text-align: justify; /* aligner en fonction de la page */
 	padding-top:109px;
 	display: block;
 	margin: 0 auto;
 	/*clear: both;*/
+}
+#gb{
+	text-align: right; /* mettre texte a droite */
+	text-decoration: none; /* pas de soulignage */
+}
+
+.link{
+	text-decoration: none;
+}
+
+.form{
+	text-decoration: none;
 }
