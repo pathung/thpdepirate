@@ -14,13 +14,23 @@
 	text-decoration: none;
 }
 
+
 .form{
 	text-decoration: none;
 }
+/*.test{
+	display: inline-block;
+
+}
+*/
 
 .gauche{
+float: left;	
 	text-align: left;
+
 }
 .droite{
+	float: right;
 	text-align: right;
+}
 }
