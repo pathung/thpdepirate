@@ -22,3 +22,10 @@
 .link_f_r{
 	text-align: right;
 }
+
+.signin
+{
+	background-color: blue;
+	color:white;
+	box-sizing: 10px;
+}
