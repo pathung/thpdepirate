@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" href="style.css">
-		
-		<title>Google</title>
-	</head>
-	<body>
-		<header>
-			<a href="https://plus.google.com/u/0/up/follow">+Thibault</a>
-			<a href="https://mail.google.com">Gmail</a>
-			<a href="https://www.google.com/imghp?hl=en&tab=wi&ei=Ox1NVMXuJYO3yATCjoFA&ved=0CAQQqi4oAg">Images</a>
-			<img id="produit" src="image/products.png"/>
-			<img id="cloche" src="image/cloche.png"/>
-			<img id="Thibault" class="headerpics" src="image/moi.png"/>
-		</header>
-		<div>
-			<img id="logo" src="image/googlelogo.png" />
-			<form name="google" action="#" method="POST" <img id="micro" src="image/micro.png"/> <br>
-				<input type="recherche" class="recherche"><br>
-				<input type="submit" class="button" name="submit" value="Recherche Google">
-				<input type="submit" class="button" name="change" value="J'ai de la chance">
-			</form>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Google</title>
+</head>
+<header>
+	<div id="gb">
+		<a class="link" href="gmail.com">Gmail</a>
+		<a class="link" href="images.google.com">Images</a>
+		<a class="link-image" href="https://www.google.fr/intl/fr/options/"><img src = "picto/application.jpg" alt= "image application"/></a>
+		<a class="link-image" href="https://www.google.fr/intl/fr/options/"><img src = "picto/application.jpg" alt= "image application"/></a>
+		<a class="gb_3f gb_Fa gb_Jb" id="gb_70" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.fr/%3Fgfe_rd%3Dcr%26dcr%3D0%26ei%3D5c3EWqKOCfLAXp_2mpAF" target="_top">Sign in</a>
+	</div>
+</header>
+<body>
+
+	<div>
+		<img src = "picto/logo.png" alt="logo google" height="92" class= "logo"/>
+	</div>
+	<div class="form" dir="ltr">
+		<center>
+		<input type="" name="" maxlength="2048" placeholder="Mots-Clefs..." ></input>
+		<input type="image" src="img/loupe.jpg" name="mon_image" onclick="submit()" />
+	</center>
+	</div>
+	<div class="bouton">
+		<center>
+		<input value="Recherche Google" name="btn" type="submit">
+		<input value="J'ai de la chance" name="btn" type="submit">
+	</center>
+	</div>
+	<div id="change_country">
+		<center>
+		Google disponible en 
+		<a href="https://www.google.fr/setprefs?sig=0_iaUZFPIKf2sgEjIZDZ-QRctSCro%3D&amp;hl=fr&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjmhtn116DaAhUGxxQKHXQPCeEQ2ZgBCAg">Français</a>
+		</center>
+	</div>
+	<footer>
+		<div id="f_bar">
+			<div class="f_pays">
+				<span class="Q8LRLc">France</span>
+			</div>
+			<div class="f_nav">
+				<a class = "link_f" href="https://www.google.fr/intl/en_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicité</a>
+				<a class = "link_f" href="https://www.google.fr/intl/en_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Entreprise</a>
+				<a class = "link_f" href="https://www.google.fr/intl/en_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">À propos</a>
+				<a class = "link_f" href="https://www.google.fr/intl/en_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Info consommateur</a>
+				<a class = "link_f" href="https://www.google.fr/intl/en_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Confidentialité</a>
+				<a class = "link_f" href="https://www.google.fr/intl/en_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Conditions</a>
+				<a class = "link_f" href="https://www.google.fr/intl/en_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=Google_hpafooter&fg=1">Paramètres</a>
+			</div>
 		</div>
-		<footer>
-			<a class="leftlinks" href="https://www.google.fr/intl/fr_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"> Publicité</a>
+	</footer>
+</body>
 
-			<a class="leftlinks" href="https://www.google.fr/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1""> Entreprise</a>
-
-			<a class="leftlinks" href="https://www.google.fr/intl/fr_fr/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">
-			A propos</a>
-
-			<a class="rightlinks" href="//support.google.com/websearch?p=fr_consumer_info&hl=fr&fg=1"> Infos consomateurs</a>
-
-			<a class="rightlinks" href="https://www.google.com/preferences?hl=en">Parametres</a>
-
-			<a class="rightlinks" href="//www.google.fr/intl/fr_fr/policies/privacy/?fg=1">Confidentialité</a>
-		</footer>
-	</body>
 </html>
