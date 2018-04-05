@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Google</title>
+	<link rel="stylesheet" href="style.css" />
+<!--	BOOTSTRAP-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--	END BOOTSTRAP-->
+<!--	FONTAWESOME-->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+<!--	END FONTAWESOME-->
+</head>
+
+<body>
+<div id="wrapper">
+<!--	NAVBAR TOP-->
+
+	<nav id="navtop">
+		<ul class="toplist">
+			
+			<li><a class="link" href="gmail.com">Gmail</a></li>
+			<li><a class="link" href="images.google.com">Images</a></li>
+			<li><a href="#"><i class="fas fa-th" style="font-size:21px;"></i></a></li>
+			<li><button type="button" class="btn btn-primary">Connexion</button></li>
+		</ul>
+	</nav>
+<!--	END NAVBAR TOP-->
+<!--	CENTER-->
+	<div id="middle" class="hidden">
+		
+		<div class="box">
+			
+			<div class="img">
+				<img src="picto/logo.png" alt="logo google" height="92" class="logo"/>
+			</div>
+
+			<div class="form" dir="ltr">
+				<input id="recherche" type="text" title="Rechercher" size=60px;" maxlength="2048"/>
+			</div>
+
+			<div id="search_buttons">	
+				<button type="button" class="btn btn-default" onclick="search()">Recherche Google</button>
+         		<button type="button" class="btn btn-default">J'ai de la chance</button>
+			</div>
+	
+			<div id="change_country">
+				Google disponible en 
+				<a href="https://www.google.fr/setprefs?sig=0_iaUZFPIKf2sgEjIZDZ-QRctSCro%3D&amp;hl=fr&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjmhtn116DaAhUGxxQKHXQPCeEQ2ZgBCAg">Français</a>
+			</div>
+		</div>
+	</div>
+	</div>
+
+<!--	END CENTER-->
+
+	<footer>
+		<div id="f_bar1">
+			<div class="f_pays">
+				<span class="pays">France</span>
+			</div>
+			<div class="f_nav"> <!-- Menu regroupe tout -->
+			<div class="f_bar2">
+			<div class="droite">  
+				<a href="https://www.google.fr/intl/en_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Info consommateur</a>
+				<a href="https://www.google.fr/intl/en_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Confidentialité</a>
+				<a href="https://www.google.fr/intl/en_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Conditions</a>
+				<a href="https://www.google.fr/intl/en_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=Google_hpafooter&fg=1">Paramètres</a>
+			</div>
+		
+			<div class="gauche">
+				<a href="https://www.google.fr/intl/en_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicité</a>
+				<a href="https://www.google.fr/intl/en_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Entreprise</a>
+				<a class="link_f_l" href="https://www.google.fr/intl/en_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">À propos</a>
+			</div>
+			</div>
+		</div>
+	</footer>
+	  <!-- BOUTON TOGGLE CENTER -->
+  <div id="overCenter">
+  	<button type="button" id= "okgoogle" name="show">OK GOOGLE!</button>
+  </div>
+  <!-- FIN BOUTON TOGGLE  -->
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
