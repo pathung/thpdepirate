@@ -11,6 +11,6 @@ Mustapha
 
 Infos : 
 
-Une erreurs dans exos 3 et 4 .... 
+Une erreurs dans exos 3 et .... 
 
 ET exos 6 ne fonctionne pas 
